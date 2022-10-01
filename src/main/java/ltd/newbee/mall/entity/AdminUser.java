@@ -22,3 +22,5 @@ public class AdminUser {
 
     private Byte locked;
 }
+
+//POJO: plain old java object

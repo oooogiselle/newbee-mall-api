@@ -17,6 +17,7 @@ import java.io.Serializable;
 @Data
 public class AdminLoginParam implements Serializable {
 
+
     @ApiModelProperty("登录名")
     @NotEmpty(message = "登录名不能为空")
     private String userName;

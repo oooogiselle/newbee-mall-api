@@ -19,6 +19,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @link https://github.com/newbee-ltd
  */
 @MapperScan("ltd.newbee.mall.dao")
+// scan the package
 @SpringBootApplication
 public class NewBeeMallAPIApplication {
 
